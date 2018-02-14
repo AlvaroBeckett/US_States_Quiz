@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hangman-Game</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+    <script type="text/javascript" src="assets/javascript/main.js"></script>
+</head>
+<body>
+<audio autoplay loop>
+    <source src="assets/states.wav" type="audio/wav">
+  </audio>
+        <header class="parallax">
+        <nav>
+        <div class="container">
+        <div class="row">
+          <div class="category text-left col-md-6 col-sm-6">
+            <p id="categoryName"></p>
+          </div>
+          <div class="menu text-right col-md-6 col-sm-6">
+            <p class="tries"><span id="tries"></span></p>
+          </div>
+        </nav>
+        <div class="text-center hangman">
+                <h1>The United States presents</h1>
+                <h1 class="states">The 50 States</h1>
+                <h1>HANGMAN</h1>
+            </div>
+              <div class="row text-center">
+            <div class="col-md-12">               
+                <div id="blank" class="well text-center">
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="row justify-content-between info">
+                <div class="col-md-6 col-sm-6">
+                <div id="guessed">
+                    <h1>Your Guesses:</h1> 
+                </div>
+            </div>
+
+                <div class="col-md-6 col-sm-6">
+                    <h4>
+                    To Play: Type a letter A-Z to guess the state.</h4>
+                </div>
+    </div>
+</div>
+                
+                <div class="container">
+                    <div class="row button">
+                        <div class="col-md-12 text-center">
+                            <button id="reset" class="btn btn-lg">Play Again</button>
+                        </div>
+                    </div>
+                </div>
+                
+        </div>
+    </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
